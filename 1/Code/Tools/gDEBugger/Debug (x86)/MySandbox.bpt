@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<gDEBugger>
+    <Breakpoints>
+        <BreakOnOpenGLError>true</BreakOnOpenGLError>
+        <BreakOnDetectedError>true</BreakOnDetectedError>
+        <BreakOnRedundantStateChanges>false</BreakOnRedundantStateChanges>
+        <BreakOnGraphicMemoryLeaks>true</BreakOnGraphicMemoryLeaks>
+        <FunctionBreakpoint>
+            <Breakpoint>
+                <FunctionName>glStringMarkerGREMEDY</FunctionName>
+                <IsEnabled>false</IsEnabled>
+            </Breakpoint>
+        </FunctionBreakpoint>
+    </Breakpoints>
+    <OpenGLStateVariables />
+</gDEBugger>

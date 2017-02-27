@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{a585c0fc-251b-4f28-a213-47483cc9e840}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\_Deprecated">
+      <UniqueIdentifier>{ac7530fe-8b4a-4579-91f5-98143d4a79ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Engine">
+      <UniqueIdentifier>{9d93cede-57bb-488f-a58d-d7948d6003b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Engine\Source">
+      <UniqueIdentifier>{c494de3d-c483-4112-a5ac-fbbe139681ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Items">
+      <UniqueIdentifier>{b2c254be-fe8d-4b1f-b116-ce21ea871a2a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="_Deprecated\_Core.cpp">
+      <Filter>Engine\_Deprecated</Filter>
+    </ClCompile>
+    <ClCompile Include="_Deprecated\_Device.cpp">
+      <Filter>Engine\_Deprecated</Filter>
+    </ClCompile>
+    <ClCompile Include="_Deprecated\_Engine.cpp">
+      <Filter>Engine\_Deprecated</Filter>
+    </ClCompile>
+    <ClCompile Include="_Deprecated\_Graphics.cpp">
+      <Filter>Engine\_Deprecated</Filter>
+    </ClCompile>
+    <ClCompile Include="_Deprecated\_Lib.cpp">
+      <Filter>Engine\_Deprecated</Filter>
+    </ClCompile>
+    <ClCompile Include="_Deprecated\_Sandbox.cpp">
+      <Filter>Engine\_Deprecated</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\File.cpp">
+      <Filter>Engine\Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\glLoad.c">
+      <Filter>Engine\Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Log.cpp">
+      <Filter>Engine\Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Math.cpp">
+      <Filter>Engine\Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Object.cpp">
+      <Filter>Engine\Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Resource.cpp">
+      <Filter>Engine\Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\String.cpp">
+      <Filter>Engine\Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Thread.cpp">
+      <Filter>Engine\Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Window.cpp">
+      <Filter>Engine\Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Time.cpp">
+      <Filter>Engine\Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GLRender.cpp">
+      <Filter>Engine\Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Render.cpp">
+      <Filter>Engine\Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ThreadPool.cpp">
+      <Filter>Engine\Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GLRenderSystem.cpp">
+      <Filter>Engine\Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\RenderSystem.cpp">
+      <Filter>Engine\Engine\Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="_Deprecated\_Core.hpp">
+      <Filter>Engine\_Deprecated</Filter>
+    </ClInclude>
+    <ClInclude Include="_Deprecated\_Device.hpp">
+      <Filter>Engine\_Deprecated</Filter>
+    </ClInclude>
+    <ClInclude Include="_Deprecated\_Engine.hpp">
+      <Filter>Engine\_Deprecated</Filter>
+    </ClInclude>
+    <ClInclude Include="_Deprecated\_Graphics.hpp">
+      <Filter>Engine\_Deprecated</Filter>
+    </ClInclude>
+    <ClInclude Include="_Deprecated\_Internal.hpp">
+      <Filter>Engine\_Deprecated</Filter>
+    </ClInclude>
+    <ClInclude Include="_Deprecated\_Lib.hpp">
+      <Filter>Engine\_Deprecated</Filter>
+    </ClInclude>
+    <ClInclude Include="_Deprecated\_Sandbox.hpp">
+      <Filter>Engine\_Deprecated</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.hpp">
+      <Filter>Engine\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Container.hpp">
+      <Filter>Engine\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="File.hpp">
+      <Filter>Engine\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Log.hpp">
+      <Filter>Engine\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.hpp">
+      <Filter>Engine\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.hpp">
+      <Filter>Engine\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="PlatformIncludes.hpp">
+      <Filter>Engine\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Render2D.hpp">
+      <Filter>Engine\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.hpp">
+      <Filter>Engine\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="String.hpp">
+      <Filter>Engine\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Thread.hpp">
+      <Filter>Engine\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\glLoad.h">
+      <Filter>Engine\Engine\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Time.hpp">
+      <Filter>Engine\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.hpp">
+      <Filter>Engine\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Render.hpp">
+      <Filter>Engine\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GLRender.hpp">
+      <Filter>Engine\Engine\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadPool.hpp">
+      <Filter>Engine\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\_DriverInterface_WIP.h">
+      <Filter>Engine\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderSystem.hpp">
+      <Filter>Engine\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="_temp.hpp">
+      <Filter>Engine\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GLRenderSystem.hpp">
+      <Filter>Engine\Engine\Source</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Source\ToDo.txt">
+      <Filter>Engine\Items</Filter>
+    </Text>
+    <Text Include="Source\Tasks.txt">
+      <Filter>Engine\Items</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

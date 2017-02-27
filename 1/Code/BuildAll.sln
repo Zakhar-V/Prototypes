@@ -1,0 +1,71 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "External", "External", "{065D1CCD-1445-4902-B548-6C68CA34D752}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Engine", "Source\Engine\Engine.vcxproj", "{29C9EA52-F1E8-43C6-A294-5F440B6066F4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D42D761C-47EF-48A4-9216-258CCB4FDA23} = {D42D761C-47EF-48A4-9216-258CCB4FDA23}
+		{C060407C-6E3C-4597-B1F5-6CD9FE548F6A} = {C060407C-6E3C-4597-B1F5-6CD9FE548F6A}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Bullet", "Source\ThirdParty\Bullet\Bullet.vcxproj", "{D42D761C-47EF-48A4-9216-258CCB4FDA23}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SDL2", "Source\ThirdParty\SDL2\SDL2.vcxproj", "{C060407C-6E3C-4597-B1F5-6CD9FE548F6A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MySandbox", "Source\MySandbox\MySandbox.vcxproj", "{6EFD1B6F-441B-438D-8AAE-2658B8458F38}"
+	ProjectSection(ProjectDependencies) = postProject
+		{29C9EA52-F1E8-43C6-A294-5F440B6066F4} = {29C9EA52-F1E8-43C6-A294-5F440B6066F4}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29C9EA52-F1E8-43C6-A294-5F440B6066F4}.Debug|x64.ActiveCfg = Debug|x64
+		{29C9EA52-F1E8-43C6-A294-5F440B6066F4}.Debug|x64.Build.0 = Debug|x64
+		{29C9EA52-F1E8-43C6-A294-5F440B6066F4}.Debug|x86.ActiveCfg = Debug|Win32
+		{29C9EA52-F1E8-43C6-A294-5F440B6066F4}.Debug|x86.Build.0 = Debug|Win32
+		{29C9EA52-F1E8-43C6-A294-5F440B6066F4}.Release|x64.ActiveCfg = Release|x64
+		{29C9EA52-F1E8-43C6-A294-5F440B6066F4}.Release|x64.Build.0 = Release|x64
+		{29C9EA52-F1E8-43C6-A294-5F440B6066F4}.Release|x86.ActiveCfg = Release|Win32
+		{29C9EA52-F1E8-43C6-A294-5F440B6066F4}.Release|x86.Build.0 = Release|Win32
+		{D42D761C-47EF-48A4-9216-258CCB4FDA23}.Debug|x64.ActiveCfg = Debug|x64
+		{D42D761C-47EF-48A4-9216-258CCB4FDA23}.Debug|x64.Build.0 = Debug|x64
+		{D42D761C-47EF-48A4-9216-258CCB4FDA23}.Debug|x86.ActiveCfg = Debug|Win32
+		{D42D761C-47EF-48A4-9216-258CCB4FDA23}.Debug|x86.Build.0 = Debug|Win32
+		{D42D761C-47EF-48A4-9216-258CCB4FDA23}.Release|x64.ActiveCfg = Release|x64
+		{D42D761C-47EF-48A4-9216-258CCB4FDA23}.Release|x64.Build.0 = Release|x64
+		{D42D761C-47EF-48A4-9216-258CCB4FDA23}.Release|x86.ActiveCfg = Release|Win32
+		{D42D761C-47EF-48A4-9216-258CCB4FDA23}.Release|x86.Build.0 = Release|Win32
+		{C060407C-6E3C-4597-B1F5-6CD9FE548F6A}.Debug|x64.ActiveCfg = Debug|x64
+		{C060407C-6E3C-4597-B1F5-6CD9FE548F6A}.Debug|x64.Build.0 = Debug|x64
+		{C060407C-6E3C-4597-B1F5-6CD9FE548F6A}.Debug|x86.ActiveCfg = Debug|Win32
+		{C060407C-6E3C-4597-B1F5-6CD9FE548F6A}.Debug|x86.Build.0 = Debug|Win32
+		{C060407C-6E3C-4597-B1F5-6CD9FE548F6A}.Release|x64.ActiveCfg = Release|x64
+		{C060407C-6E3C-4597-B1F5-6CD9FE548F6A}.Release|x64.Build.0 = Release|x64
+		{C060407C-6E3C-4597-B1F5-6CD9FE548F6A}.Release|x86.ActiveCfg = Release|Win32
+		{C060407C-6E3C-4597-B1F5-6CD9FE548F6A}.Release|x86.Build.0 = Release|Win32
+		{6EFD1B6F-441B-438D-8AAE-2658B8458F38}.Debug|x64.ActiveCfg = Debug|x64
+		{6EFD1B6F-441B-438D-8AAE-2658B8458F38}.Debug|x64.Build.0 = Debug|x64
+		{6EFD1B6F-441B-438D-8AAE-2658B8458F38}.Debug|x86.ActiveCfg = Debug|Win32
+		{6EFD1B6F-441B-438D-8AAE-2658B8458F38}.Debug|x86.Build.0 = Debug|Win32
+		{6EFD1B6F-441B-438D-8AAE-2658B8458F38}.Release|x64.ActiveCfg = Release|x64
+		{6EFD1B6F-441B-438D-8AAE-2658B8458F38}.Release|x64.Build.0 = Release|x64
+		{6EFD1B6F-441B-438D-8AAE-2658B8458F38}.Release|x86.ActiveCfg = Release|Win32
+		{6EFD1B6F-441B-438D-8AAE-2658B8458F38}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D42D761C-47EF-48A4-9216-258CCB4FDA23} = {065D1CCD-1445-4902-B548-6C68CA34D752}
+		{C060407C-6E3C-4597-B1F5-6CD9FE548F6A} = {065D1CCD-1445-4902-B548-6C68CA34D752}
+	EndGlobalSection
+EndGlobal
