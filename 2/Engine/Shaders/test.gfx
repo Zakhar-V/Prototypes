@@ -1,0 +1,38 @@
+Effect=Test
+{
+	Flags=Quality
+	{
+		Type=OneOf
+		Flag=Low
+		{
+			UITitle = UI_Techniques_Test_Quality_High
+			Value=0x1
+		}		
+		Flag=Normal
+		{
+			UITitle = UI_Techniques_Test_Quality_High
+			Value=0x0
+		}		
+		Flag=High
+		{
+			UITitle = UI_Techniques_Test_Quality_High
+			Value=0x2
+		}
+	}
+	
+	Flags=''
+	{
+		Type=OneOf
+		Hidden=1
+		Flag=Skinned
+		{
+		}
+	}
+	
+	Condition
+	{
+		ShaderType=Vertex
+		GeometryType=StaticMesh
+	}
+	
+}
