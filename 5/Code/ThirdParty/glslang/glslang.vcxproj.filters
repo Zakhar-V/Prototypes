@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="glslang">
+      <UniqueIdentifier>{7b0da2d4-a00c-4822-8d6c-b5004d0617e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="glslang\SPIRV">
+      <UniqueIdentifier>{1e01dacb-6806-48ef-8f65-f63b36ae4922}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="glslang\glslang">
+      <UniqueIdentifier>{9cfaab28-1485-4a4d-ae6b-d30c8bf4d39e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="glslang\glslang\GenericCodeGen">
+      <UniqueIdentifier>{c91af0fa-e977-4698-a2ea-685cadaedc8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="glslang\glslang\Include">
+      <UniqueIdentifier>{f4e3affb-813d-4a4b-ba32-789587157f2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="glslang\glslang\MachineIndependent">
+      <UniqueIdentifier>{eb3ee368-8483-45e8-827b-58bc38b9c23f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="glslang\glslang\OSDependent">
+      <UniqueIdentifier>{f30ebea4-2b34-4fb9-a80c-dc8e7145c96a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="glslang\glslang\Public">
+      <UniqueIdentifier>{7b6e6acd-285f-42f7-a796-371547d18bd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="glslang\glslang\MachineIndependent\preprocessor">
+      <UniqueIdentifier>{095301f6-75a8-4d39-bede-bcb1f52373a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="glslang\OGLCompilersDLL">
+      <UniqueIdentifier>{1d99fef8-5f81-42b9-a188-cee356083855}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SPIRV\disassemble.cpp">
+      <Filter>glslang\SPIRV</Filter>
+    </ClCompile>
+    <ClCompile Include="SPIRV\doc.cpp">
+      <Filter>glslang\SPIRV</Filter>
+    </ClCompile>
+    <ClCompile Include="SPIRV\GlslangToSpv.cpp">
+      <Filter>glslang\SPIRV</Filter>
+    </ClCompile>
+    <ClCompile Include="SPIRV\SpvBuilder.cpp">
+      <Filter>glslang\SPIRV</Filter>
+    </ClCompile>
+    <ClCompile Include="SPIRV\SPVRemapper.cpp">
+      <Filter>glslang\SPIRV</Filter>
+    </ClCompile>
+    <ClCompile Include="glslang\GenericCodeGen\CodeGen.cpp">
+      <Filter>glslang\glslang\GenericCodeGen</Filter>
+    </ClCompile>
+    <ClCompile Include="glslang\GenericCodeGen\Link.cpp">
+      <Filter>glslang\glslang\GenericCodeGen</Filter>
+    </ClCompile>
+    <ClCompile Include="glslang\MachineIndependent\preprocessor\Pp.cpp">
+      <Filter>glslang\glslang\MachineIndependent\preprocessor</Filter>
+    </ClCompile>
+    <ClCompile Include="glslang\MachineIndependent\preprocessor\PpAtom.cpp">
+      <Filter>glslang\glslang\MachineIndependent\preprocessor</Filter>
+    </ClCompile>
+    <ClCompile Include="glslang\MachineIndependent\preprocessor\PpContext.cpp">
+      <Filter>glslang\glslang\MachineIndependent\preprocessor</Filter>
+    </ClCompile>
+    <ClCompile Include="glslang\MachineIndependent\preprocessor\PpMemory.cpp">
+      <Filter>glslang\glslang\MachineIndependent\preprocessor</Filter>
+    </ClCompile>
+    <ClCompile Include="glslang\MachineIndependent\preprocessor\PpScanner.cpp">
+      <Filter>glslang\glslang\MachineIndependent\preprocessor</Filter>
+    </ClCompile>
+    <ClCompile Include="glslang\MachineIndependent\preprocessor\PpSymbols.cpp">
+      <Filter>glslang\glslang\MachineIndependent\preprocessor</Filter>
+    </ClCompile>
+    <ClCompile Include="glslang\MachineIndependent\preprocessor\PpTokens.cpp">
+      <Filter>glslang\glslang\MachineIndependent\preprocessor</Filter>
+    </ClCompile>
+    <ClCompile Include="glslang\MachineIndependent\Constant.cpp">
+      <Filter>glslang\glslang\MachineIndependent</Filter>
+    </ClCompile>
+    <ClCompile Include="glslang\MachineIndependent\glslang_tab.cpp">
+      <Filter>glslang\glslang\MachineIndependent</Filter>
+    </ClCompile>
+    <ClCompile Include="glslang\MachineIndependent\InfoSink.cpp">
+      <Filter>glslang\glslang\MachineIndependent</Filter>
+    </ClCompile>
+    <ClCompile Include="glslang\MachineIndependent\Initialize.cpp">
+      <Filter>glslang\glslang\MachineIndependent</Filter>
+    </ClCompile>
+    <ClCompile Include="glslang\MachineIndependent\Intermediate.cpp">
+      <Filter>glslang\glslang\MachineIndependent</Filter>
+    </ClCompile>
+    <ClCompile Include="glslang\MachineIndependent\intermOut.cpp">
+      <Filter>glslang\glslang\MachineIndependent</Filter>
+    </ClCompile>
+    <ClCompile Include="glslang\MachineIndependent\IntermTraverse.cpp">
+      <Filter>glslang\glslang\MachineIndependent</Filter>
+    </ClCompile>
+    <ClCompile Include="glslang\MachineIndependent\limits.cpp">
+      <Filter>glslang\glslang\MachineIndependent</Filter>
+    </ClCompile>
+    <ClCompile Include="glslang\MachineIndependent\linkValidate.cpp">
+      <Filter>glslang\glslang\MachineIndependent</Filter>
+    </ClCompile>
+    <ClCompile Include="glslang\MachineIndependent\parseConst.cpp">
+      <Filter>glslang\glslang\MachineIndependent</Filter>
+    </ClCompile>
+    <ClCompile Include="glslang\MachineIndependent\ParseHelper.cpp">
+      <Filter>glslang\glslang\MachineIndependent</Filter>
+    </ClCompile>
+    <ClCompile Include="glslang\MachineIndependent\PoolAlloc.cpp">
+      <Filter>glslang\glslang\MachineIndependent</Filter>
+    </ClCompile>
+    <ClCompile Include="glslang\MachineIndependent\reflection.cpp">
+      <Filter>glslang\glslang\MachineIndependent</Filter>
+    </ClCompile>
+    <ClCompile Include="glslang\MachineIndependent\RemoveTree.cpp">
+      <Filter>glslang\glslang\MachineIndependent</Filter>
+    </ClCompile>
+    <ClCompile Include="glslang\MachineIndependent\Scan.cpp">
+      <Filter>glslang\glslang\MachineIndependent</Filter>
+    </ClCompile>
+    <ClCompile Include="glslang\MachineIndependent\ShaderLang.cpp">
+      <Filter>glslang\glslang\MachineIndependent</Filter>
+    </ClCompile>
+    <ClCompile Include="glslang\MachineIndependent\SymbolTable.cpp">
+      <Filter>glslang\glslang\MachineIndependent</Filter>
+    </ClCompile>
+    <ClCompile Include="glslang\MachineIndependent\Versions.cpp">
+      <Filter>glslang\glslang\MachineIndependent</Filter>
+    </ClCompile>
+    <ClCompile Include="glslang\OSDependent\Windows\ossource.cpp">
+      <Filter>glslang\glslang\OSDependent</Filter>
+    </ClCompile>
+    <ClCompile Include="OGLCompilersDLL\InitializeDll.cpp">
+      <Filter>glslang\OGLCompilersDLL</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SPIRV\disassemble.h">
+      <Filter>glslang\SPIRV</Filter>
+    </ClInclude>
+    <ClInclude Include="SPIRV\doc.h">
+      <Filter>glslang\SPIRV</Filter>
+    </ClInclude>
+    <ClInclude Include="SPIRV\GLSL.std.450.h">
+      <Filter>glslang\SPIRV</Filter>
+    </ClInclude>
+    <ClInclude Include="SPIRV\GLSL450Lib.h">
+      <Filter>glslang\SPIRV</Filter>
+    </ClInclude>
+    <ClInclude Include="SPIRV\GlslangToSpv.h">
+      <Filter>glslang\SPIRV</Filter>
+    </ClInclude>
+    <ClInclude Include="SPIRV\spirv.h">
+      <Filter>glslang\SPIRV</Filter>
+    </ClInclude>
+    <ClInclude Include="SPIRV\spirv.hpp">
+      <Filter>glslang\SPIRV</Filter>
+    </ClInclude>
+    <ClInclude Include="SPIRV\SpvBuilder.h">
+      <Filter>glslang\SPIRV</Filter>
+    </ClInclude>
+    <ClInclude Include="SPIRV\spvIR.h">
+      <Filter>glslang\SPIRV</Filter>
+    </ClInclude>
+    <ClInclude Include="SPIRV\SPVRemapper.h">
+      <Filter>glslang\SPIRV</Filter>
+    </ClInclude>
+    <ClInclude Include="glslang\Include\arrays.h">
+      <Filter>glslang\glslang\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="glslang\Include\BaseTypes.h">
+      <Filter>glslang\glslang\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="glslang\Include\Common.h">
+      <Filter>glslang\glslang\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="glslang\Include\ConstantUnion.h">
+      <Filter>glslang\glslang\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="glslang\Include\InfoSink.h">
+      <Filter>glslang\glslang\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="glslang\Include\InitializeGlobals.h">
+      <Filter>glslang\glslang\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="glslang\Include\intermediate.h">
+      <Filter>glslang\glslang\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="glslang\Include\PoolAlloc.h">
+      <Filter>glslang\glslang\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="glslang\Include\ResourceLimits.h">
+      <Filter>glslang\glslang\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="glslang\Include\revision.h">
+      <Filter>glslang\glslang\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="glslang\Include\ShHandle.h">
+      <Filter>glslang\glslang\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="glslang\Include\Types.h">
+      <Filter>glslang\glslang\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="glslang\MachineIndependent\preprocessor\PpContext.h">
+      <Filter>glslang\glslang\MachineIndependent\preprocessor</Filter>
+    </ClInclude>
+    <ClInclude Include="glslang\MachineIndependent\preprocessor\PpTokens.h">
+      <Filter>glslang\glslang\MachineIndependent\preprocessor</Filter>
+    </ClInclude>
+    <ClInclude Include="glslang\MachineIndependent\Versions.h">
+      <Filter>glslang\glslang\MachineIndependent</Filter>
+    </ClInclude>
+    <ClInclude Include="glslang\MachineIndependent\gl_types.h">
+      <Filter>glslang\glslang\MachineIndependent</Filter>
+    </ClInclude>
+    <ClInclude Include="glslang\MachineIndependent\glslang_tab.cpp.h">
+      <Filter>glslang\glslang\MachineIndependent</Filter>
+    </ClInclude>
+    <ClInclude Include="glslang\MachineIndependent\Initialize.h">
+      <Filter>glslang\glslang\MachineIndependent</Filter>
+    </ClInclude>
+    <ClInclude Include="glslang\MachineIndependent\localintermediate.h">
+      <Filter>glslang\glslang\MachineIndependent</Filter>
+    </ClInclude>
+    <ClInclude Include="glslang\MachineIndependent\ParseHelper.h">
+      <Filter>glslang\glslang\MachineIndependent</Filter>
+    </ClInclude>
+    <ClInclude Include="glslang\MachineIndependent\reflection.h">
+      <Filter>glslang\glslang\MachineIndependent</Filter>
+    </ClInclude>
+    <ClInclude Include="glslang\MachineIndependent\RemoveTree.h">
+      <Filter>glslang\glslang\MachineIndependent</Filter>
+    </ClInclude>
+    <ClInclude Include="glslang\MachineIndependent\Scan.h">
+      <Filter>glslang\glslang\MachineIndependent</Filter>
+    </ClInclude>
+    <ClInclude Include="glslang\MachineIndependent\ScanContext.h">
+      <Filter>glslang\glslang\MachineIndependent</Filter>
+    </ClInclude>
+    <ClInclude Include="glslang\MachineIndependent\SymbolTable.h">
+      <Filter>glslang\glslang\MachineIndependent</Filter>
+    </ClInclude>
+    <ClInclude Include="glslang\MachineIndependent\unistd.h">
+      <Filter>glslang\glslang\MachineIndependent</Filter>
+    </ClInclude>
+    <ClInclude Include="glslang\OSDependent\Windows\osinclude.h">
+      <Filter>glslang\glslang\OSDependent</Filter>
+    </ClInclude>
+    <ClInclude Include="glslang\Public\ShaderLang.h">
+      <Filter>glslang\glslang\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="OGLCompilersDLL\InitializeDll.h">
+      <Filter>glslang\OGLCompilersDLL</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="glslang\MachineIndependent\glslang.y">
+      <Filter>glslang\glslang\MachineIndependent</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>
