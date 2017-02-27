@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{8af26732-78ee-433a-a3ba-30d9d03e2484}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\RenderSystem">
+      <UniqueIdentifier>{e3a8866c-9eb8-4dde-a5ad-0a25ac6df7df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty">
+      <UniqueIdentifier>{f9e5afc4-b071-4191-944d-26df918c422b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Source">
+      <UniqueIdentifier>{7cd0122c-1f15-4796-967d-45e694352f12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Include">
+      <UniqueIdentifier>{ac8ec40e-dbde-415e-9b45-b6a4a9ab11e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Items">
+      <UniqueIdentifier>{697aca0d-b271-4cdf-b96f-c30059b73803}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\new">
+      <UniqueIdentifier>{c7c33ad4-ba90-42a6-b0da-0717def5e9bd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\GraphicsD3D11.hpp">
+      <Filter>Engine\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\_OldCode.h">
+      <Filter>Engine\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Base.hpp">
+      <Filter>Engine\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.hpp">
+      <Filter>Engine\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug.hpp">
+      <Filter>Engine\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="File.hpp">
+      <Filter>Engine\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.hpp">
+      <Filter>Engine\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.hpp">
+      <Filter>Engine\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Thread.hpp">
+      <Filter>Engine\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics.hpp">
+      <Filter>Engine\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.hpp">
+      <Filter>Engine\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineApi.hpp">
+      <Filter>Engine\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Device.hpp">
+      <Filter>Engine\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GraphicsGLES.hpp">
+      <Filter>Engine\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\temp.h">
+      <Filter>Engine\Source</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Base.cpp">
+      <Filter>Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Debug.cpp">
+      <Filter>Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Device.cpp">
+      <Filter>Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\File.cpp">
+      <Filter>Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics.cpp">
+      <Filter>Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GraphicsD3D11.cpp">
+      <Filter>Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Math.cpp">
+      <Filter>Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Object.cpp">
+      <Filter>Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Thread.cpp">
+      <Filter>Engine\Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="temp.txt">
+      <Filter>Engine\Items</Filter>
+    </Text>
+    <Text Include="tasks.txt">
+      <Filter>Engine\Items</Filter>
+    </Text>
+    <Text Include="history.txt">
+      <Filter>Engine\Items</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

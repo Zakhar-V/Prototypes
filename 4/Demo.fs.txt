@@ -1,0 +1,20 @@
+RootDir = Data/Demo 
+CacheDir = Cache 
+Paths = [ 
+	{ 
+		Path = Mods 
+		Priority = 1 
+	} 
+	{ 
+		Path = GameData 
+		Priority = 0 
+	} 
+	{ 
+		Path = ../Shared 
+		Priority = 0 
+	} 
+	{ 
+		Path = ../Engine 
+		Priority = 0 
+	} 
+] 
